@@ -1,25 +1,32 @@
 {
-  "name": "plato-demo",
-  "version": "1.0.0",
-  "description": "demo basico con plato",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jansanchez/plato-demo.git"
-  },
-  "keywords": [
-    "plato"
-  ],
-  "author": "jansanchez",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jansanchez/plato-demo/issues"
-  },
-  "homepage": "https://github.com/jansanchez/plato-demo",
-  "devDependencies": {
-    "plato": "^1.5.0"
-  }
+    "name": "plato-demo",
+    "version": "1.0.0",
+    "description": "demo basico con plato",
+    "main": "index.js",
+    "scripts": {
+        "name": "plato-demo",
+        "version": "1.0.0",
+        "description": "demo basico con plato",
+        "main": "index.js",
+        "scripts": {
+            "plato": "plato -r -d report dist",
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/jansanchez/plato-demo.git"
+        },
+        "keywords": [
+            "plato"
+        ],
+        "author": "jansanchez",
+        "license": "MIT",
+        "bugs": {
+            "url": "https://github.com/jansanchez/plato-demo/issues"
+        },
+        "homepage": "https://github.com/jansanchez/plato-demo",
+        "devDependencies": {
+            "plato": "^1.5.0"
+        }
+    }
 }
