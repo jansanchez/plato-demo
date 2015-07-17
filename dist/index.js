@@ -11,7 +11,7 @@ StringTwo = function(originalText, caseType){
 	this.output = '';
 	this.to(caseType);
 	return this.getText();
-}
+};
 
 StringTwo.prototype.to = function(caseType) {
 	switch(caseType){
@@ -24,7 +24,7 @@ StringTwo.prototype.to = function(caseType) {
 		default:
 			this.toLower();
 		break;
-	};
+	}
 };
 
 StringTwo.prototype.toLower = function() {
